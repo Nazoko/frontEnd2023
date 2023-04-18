@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java</title>
+</head>
+<body>
+    
+
+    <script>
+        //var nombre = "Antar"
+        //alert("Hola " + nombre);
+        //var num = 10;
+        //De izquierda a derecha, si detecta números, los suma.
+        //Una vez que encuentre texto de izquierda a derecha, todos los siguentes
+        //Valores serán tratados como texto
+        //alert(10 + "10" + num )
+        var nota1 = 5;
+        var nota2 = 7;
+        var nota3 = 7;
+        //if( nota1 >= 1 && nota2 <= 7
+            //&& nota2 >= 1 && nota2 <= 7 
+            //&& nota3 >= 1 && nota3 <= 7){
+            //var promedio = (nota1 + nota2 + nota3)/3;
+            //alert("promedio: " + promedio)
+        //}else{
+            //alert("Hay al menos una nota que no esta dentro del rango")
+        //}
+
+        if (nota1 < 1 || nota1 >7){
+            alert("Nota 1 con valor ingresado no válido");
+        } else if (nota2 < 1 || nota2 >7){
+            alert("Nota 2 con valor ingresado no válido")
+        } else if(nota3 < 1 || nota3 > 7){
+            alert("Nota 3 con valor ingresado no válido")
+        } else {
+            var promedio = (nota1 + nota2 + nota3)/3;
+            alert("promedio: " + promedio)
+        }
+        
+    </script>
+</body>
+</html>

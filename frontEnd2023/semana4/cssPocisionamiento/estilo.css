@@ -1,0 +1,55 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: 28px;
+    text-align: center;
+}
+
+
+.caja-absoluta{
+    width:100px;
+    height: 100px;
+    margin:10px;
+    background-color: blue;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    
+}
+.caja-morada{
+    width:100px;
+    height: 100px;
+    margin:10px;
+    background-color: blueviolet;
+    border:1px solid black;
+}
+
+p{
+    color: black;
+}
+
+.boton-flotante{
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    padding: 10px 20px;
+    background-color: blue;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 2px #ccc;
+}
+
+.caja-invisivle{
+    width:100px;
+    height: 100px;
+    margin:10px;
+    background-color: blueviolet;
+    visibility: hidden;
+}
+
+.caja-inexistente{
+    width:100px;
+    height: 100px;
+    margin:10px;
+    background-color: blueviolet;
+    display: none;
+}

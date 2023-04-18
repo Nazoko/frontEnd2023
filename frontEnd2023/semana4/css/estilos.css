@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0 auto;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-size: 18px;
+        }
+
+        body {
+            margin: 20px 0px;
+            text-align: center;
+            background-color: aqua;
+        }
+        button{
+            background-color: blue;
+            color: white;
+            padding: 10px 20px;
+            margin: 20px 0px;
+            border: none;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px #ccc;
+            font-family: 'Segoe UI', sans-serif;
+            font-size: 18px;
+        }
+
+        .fondo-rojo {
+            background-color: red;
+
+        }
+
+        .fondo-morado {
+            background-color: blueviolet;
+        }
+
+        #guardar {
+            font-weight: bold;
+        }
+
+        .mt-10{
+            margin-top: 10px;
+        }
+
+        span {
+            color: green;
+        
+        }
+        
+        p span {
+            color: blueviolet;
+        }
+
+    </style>
+  </head>
+  <body>
+    <form>
+      <div class="mt-10">
+        <label>Nombre:</label>
+        <input type="text" />
+      </div>
+      <div class="mt-10">
+        <label>Apellido:</label>
+        <input type="text" />
+      </div>
+      <div>
+        <span>ASDF0</span>
+      </div>
+      <div>
+        <p>Lorem ipsum dolor sit 
+            amet consectetur adipisicing elit.
+             <span>Dolorem</span> quas nisi laudantium atque voluptate ratione 
+             facilis quidem libero culpa deserunt.</p>
+      </div>
+      
+      <div>
+        <button id="guardar">Guardar</button>
+        <button class="fondo-morado" style="background-color: red;">Eliminar</button>
+        
+
+      </div>
+    </form>
+  </body>
+</html>
